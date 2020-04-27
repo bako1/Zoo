@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47b73084-ff99-43a1-8378-575fd3bbddce" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZWSECuA0mYXDiC4AlxJxXS7iIK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/no/ntnu/idatt2001/oblig5/zoo" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47b73084-ff99-43a1-8378-575fd3bbddce" name="Default Changelist" comment="" />
+      <created>1584953242484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584953242484</updated>
+      <workItem from="1585557473774" duration="2989000" />
+      <workItem from="1587981759136" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1321" y="475" key="#com.intellij.ide.util.MemberChooser" timestamp="1585560133871">
+      <screen x="0" y="23" width="2560" height="1365" />
+    </state>
+    <state x="1321" y="475" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1365@0.23.2560.1365" timestamp="1585560133871" />
+    <state x="1010" y="390" key="SettingsEditor" timestamp="1585558626853">
+      <screen x="0" y="23" width="2560" height="1365" />
+    </state>
+    <state x="1010" y="390" key="SettingsEditor/0.23.2560.1365@0.23.2560.1365" timestamp="1585558626853" />
+    <state x="300" y="219" key="new project wizard" timestamp="1584954992341">
+      <screen x="0" y="23" width="2560" height="1375" />
+    </state>
+    <state x="300" y="219" key="new project wizard/0.23.2560.1375@0.23.2560.1375" timestamp="1584954992341" />
+  </component>
+</project>

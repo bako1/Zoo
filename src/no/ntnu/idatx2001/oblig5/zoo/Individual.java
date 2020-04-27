@@ -1,6 +1,7 @@
 package no.ntnu.idatx2001.oblig5.zoo;
 
 import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 
 /**
  * Represents one specific individual animal in the Zoo.
@@ -8,7 +9,7 @@ import java.time.LocalDate;
  * and it is also tagged whether or not the animal is dangerous for the
  * visiting guests of the Zoo.
  */
-abstract class Individual extends Animal {
+abstract class Individual extends Animal implements no.ntnu.idatx2001.oblig5.zoo.ScandinavianWildAnimal {
   private String name;
   private LocalDate dateOfBirth;
   private boolean isDangerous;
@@ -45,6 +46,7 @@ abstract class Individual extends Animal {
    *
    * @return the name of the individual.
    */
+  @Override
   public String getName() {
     return name;
   }
@@ -63,6 +65,7 @@ abstract class Individual extends Animal {
    *
    * @return the date of birth.
    */
+  @Override
   public LocalDate getDateOfBirth() {
     return dateOfBirth;
   }
@@ -96,4 +99,31 @@ abstract class Individual extends Animal {
   public void setDangerous(boolean isDangerous) {
     this.isDangerous = isDangerous;
   }
+  /**
+   * Calculate the age of an individual animal
+   * @return returns the age of animal
+   * */
+  @Override
+  public int getAge(){
+    int age = (int) ChronoUnit.YEARS.between(
+            dateOfBirth , LocalDate.now());
+
+    return age;
+  }
+
+@Override
+ public String getAddress(){
+    return super.getAddress();
+ }
+@Override
+public void move(String newAddress){
+super.setAddress(newAddress);
+}
+
+@Override
+  public String printInfo(){
+    return super.toString();
+}
+
+
 }

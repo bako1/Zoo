@@ -6,7 +6,7 @@ import java.time.LocalDate;
  * Represents a female individual. A female can give birth, represented
  * by the field noLitters.
  */
-class FemaleIndividual extends Individual {
+class FemaleIndividual extends no.ntnu.idatx2001.oblig5.zoo.Individual {
   private int noLitters;
 
   /**
@@ -68,5 +68,20 @@ class FemaleIndividual extends Individual {
    */
   public void addNewLitter() {
     noLitters += 1;
+  }
+
+  @Override
+  public int getAge() {
+    return super.getAge();
+  }
+
+  @Override
+  public void move(String newAddress) {
+
+  }
+
+  @Override
+  public String printInfo() {
+    return super.printInfo();
   }
 }
